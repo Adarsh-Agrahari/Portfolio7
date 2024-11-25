@@ -48,7 +48,7 @@ export default function Home({ user }) {
 
 export async function getServerSideProps() {
 	const user = {
-		name: "Swetha Chinta",
+		name: "Purushotham Reddy",
 		title: "Oracle ERP Expert | 17+ Years in EBS R12 & Cloud Integration",
 		profileImage: "/img/pic.jpg",
 		about: `

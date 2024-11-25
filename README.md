@@ -1,1 +1,1 @@
-# Swetha Chinta Portfolio website
+# Purushotham Reddy Portfolio website
