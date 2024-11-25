@@ -16,7 +16,7 @@ export default function Navbar() {
 	return (
 		<nav className={styles.navbar}>
 			<div className={styles.logo}>
-				<Link href="/">SC</Link>
+				<Link href="/">PR</Link>
 			</div>
 			<div className={styles.navLinks}>
 				<Link href="/"> Home </Link>
@@ -24,7 +24,7 @@ export default function Navbar() {
 				<Link href="/about"> About </Link>
 				<Link href="/"> Award </Link>
 				<Link href="/books"> Books Authored </Link>
-				<Link href="/"> News </Link>
+				<Link href="/news"> News </Link>
 			</div>
 			{isMenuOpen ? (
 				<RxCross1
@@ -44,7 +44,7 @@ export default function Navbar() {
 					<Link href="/about"> About </Link>
 					<Link href="/"> Award </Link>
 					<Link href="/books"> Books Authored </Link>
-					<Link href="/"> News </Link>
+					<Link href="/news"> News </Link>
 				</div>
 			)}
 		</nav>
