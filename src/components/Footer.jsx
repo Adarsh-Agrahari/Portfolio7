@@ -10,22 +10,20 @@ export const Footer = () => {
 		<footer className={styles.footer}>
 			<div className={styles.container}>
 				<div className={styles.logoSection}>
-					<h1 className={styles.logo}>Swetha Chinta</h1>
+					<h1 className={styles.logo}>Purushotham Reddy</h1>
 					<p className={styles.tagline}>
-						Oracle ERP Expert | 17+ Years in EBS R12 & Cloud
-						Integration
+						AWS Certified Solutions Architect | DevOps & Cloud
+						Expert | CI/CD & Automation Specialist | Kubernetes |
+						Terraform | Software Development Leader
 					</p>
 				</div>
 				<div className={styles.socialSection}>
 					<h3 className={styles.heading}>Follow Me</h3>
 					<div className={styles.socialIcons}>
-						<Link href="www.linkedin.com/in/swetha-chinta-945964140">
+						<Link href="https://www.linkedin.com/in/purushotham-reddy-8aaa8b12">
 							<FaLinkedin /> LinkedIn
 						</Link>
-						<Link href=" https://independent.academia.edu/SwethaChinta1">
-							<SiAcademia /> Academia
-						</Link>
-						<Link href="https://scholar.google.com/citations?user=r3tuO9UAAAAJ&hl=en&authuser=6">
+						<Link href="https://scholar.google.com/citations?user=EaWd2X0AAAAJ&hl=en&authuser=2">
 							<FaGoogleScholar /> Google Scholar
 						</Link>
 					</div>
@@ -33,8 +31,8 @@ export const Footer = () => {
 			</div>
 			<div className={styles.footerBottom}>
 				<p>
-					&copy; {new Date().getFullYear()} Swetha Chinta. All Rights
-					Reserved.
+					&copy; {new Date().getFullYear()} Purushotham Reddy. All
+					Rights Reserved.
 				</p>
 			</div>
 		</footer>
