@@ -7,7 +7,7 @@ export default function Books({ books = [] }) {
 	return (
 		<div className={styles.booksContainer}>
 			<Head>
-				<title>Swetha Chinta</title>
+				<title>Purushotham Reddy</title>
 				<meta
 					name="description"
 					content="Explore books authored by a seasoned professional on topics like AI, business intelligence, and more."
@@ -27,6 +27,7 @@ export default function Books({ books = [] }) {
 								<Link
 									href={book.link}
 									className={styles.bookLink}
+									target="_blank"
 								>
 									<img
 										src={book.image}
@@ -52,8 +53,8 @@ export async function getServerSideProps() {
 	try {
 		const books = [
 			{
-				title: "The AI-Powered Enterprise: Redefining Business Intelligence Strategies",
-				link: "https://www.amazon.com/dp/B0DMWMZ5H6",
+				title: "Edge To Cloud AI: Integrating Intelligent Systems Across Distributed Environments",
+				link: "https://www.amazon.com/dp/B0DMJVHB7N?ref=cm_sw_r_ffobk_cso_wa_apin_dp_T3G72N2R3Z5QHGS0QPSE&ref_=cm_sw_r_ffobk_cso_wa_apin_dp_T3G72N2R3Z5QHGS0QPSE&social_share=cm_sw_r_ffobk_cso_wa_apin_dp_T3G72N2R3Z5QHGS0QPSE&peakEvent=2&starsLeft=1&skipTwisterOG=1&bestFormat=true",
 				image: "img/book.jpg",
 			},
 		];
