@@ -49,17 +49,17 @@ export default function Home({ user }) {
 export async function getServerSideProps() {
 	const user = {
 		name: "Purushotham Reddy",
-		title: "Oracle ERP Expert | 17+ Years in EBS R12 & Cloud Integration",
+		title: "AWS Certified Solutions Architect | DevOps & Cloud Expert | CI/CD & Automation Specialist | Kubernetes | Terraform | Software Development Leader",
 		profileImage: "/img/pic.jpg",
 		about: `
-			I am an experienced Oracle ERP professional with 17+ years of expertise 
-			in Oracle e-Business Suite R12 and Oracle ERP Cloud. I specialize in 
-			system integration, project management, and technical leadership, 
-			with strong skills in Oracle Cloud technologies like ICS, PCS, VBCS, 
-			and REST/SOAP Web Services. As a certified Oracle Cloud Implementation 
-			Specialist, I have a proven track record in delivering seamless 
-			solutions in Finance, Procurement, and Inventory, ensuring client 
-			success and satisfaction.
+		With over 19 years of IT experience, I specialize in software development, DevOps, cloud
+computing, and automation. Proficient in AWS services, Kubernetes, CI/CD pipelines, and
+infrastructure tools like Terraform and Ansible, I excel at designing scalable, automated
+solutions. My expertise extends to application performance monitoring with tools like Splunk and
+Datadog, and I am certified as an AWS Solutions Architect and Developer. I have a proven track
+record of leading teams, mentoring engineers, and delivering high-quality results within tight
+deadlines, driving innovation and efficiency in every project.
+
 		`,
 	};
 
