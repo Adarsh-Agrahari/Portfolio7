@@ -7,7 +7,7 @@ export default function About({ aboutData = [] }) {
 	return (
 		<div className={styles.aboutContainer}>
 			<Head>
-				<title>Swetha Chinta</title>
+				<title>Purushotham Reddy</title>
 				<meta
 					name="description"
 					content="Learn more about my 17+ years of expertise in Oracle ERP technologies, technical leadership, system integration, and project management."
@@ -40,9 +40,9 @@ export default function About({ aboutData = [] }) {
 export async function getServerSideProps() {
 	try {
 		const aboutData = [
-			"With over 17 years of expertise in Oracle e-Business Suite R12 and Oracle ERP Cloud, I am a seasoned professional specializing in technical leadership, system integration, and project management. My experience spans diverse roles such as Technical Lead, Fusion/Cloud Integration Consultant, and Solution Architect. I have a proven track record of delivering high-quality results in implementation, support processes, and product upgrades, employing both Agile and Waterfall methodologies.",
-			"My skill set includes Oracle Cloud technologies like ICS, PCS, VBCS, REST/SOAP Web Services, BI, and OTBI, as well as hands-on experience with data migrations, system integration, and project delivery in global onshore-offshore models. I am passionate about leveraging my problem-solving and risk analysis skills to navigate complex challenges and deliver innovative, efficient solutions for clients.",
-			"As a certified Oracle Cloud Implementation Specialist, I bring a strong foundation in functional areas such as Finance, Procurement, and Inventory, complemented by extensive experience in developing web and mobile applications using VBCS and integrating third-party systems. My commitment to excellence ensures seamless project execution and client satisfaction. Outside of work, I continuously expand my knowledge through certifications and skill enhancements, staying ahead in the dynamic field of Oracle ERP technologies. Whether driving cross-functional collaboration or mentoring teams, I am dedicated to fostering innovation and achieving impactful outcomes.",
+			"With over 19 years of dynamic experience in the IT industry, I specialize in software development, DevOps, automation, and quality assurance. Throughout my career, I’ve mastered the full Software Development Life Cycle (SDLC), seamlessly operating in both Waterfall and Agile environments. My expertise spans cloud computing with AWS services like EC2, S3, Lambda, RDS, and Kubernetes clusters, alongside designing robust CI/CD pipelines using Jenkins, Ansible, and Docker.",
+			"I am an AWS Certified Solutions Architect and Developer with extensive hands-on experience in infrastructure automation using Terraform and Ansible. My contributions include creating scalable cloud environments, automating resource usage data collection, and optimizing application performance monitoring with tools like Splunk and Datadog.",
+			"As a leader, I have successfully managed diverse teams, mentored junior engineers, and delivered high-quality results within stringent timelines. My passion for innovation drives me to continuously refine processes, ensuring reliability, efficiency, and excellence in every project.",
 		];
 
 		return {
